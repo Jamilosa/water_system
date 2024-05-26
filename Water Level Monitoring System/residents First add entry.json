@@ -1,0 +1,26 @@
+{
+  "-NyAbfOercjxHVHmEY45": {
+    "firstName": "TEST",
+    "houseNumber": "125",
+    "lastName": "FROM PYTHON",
+    "middleInitial": "X",
+    "phoneNumber": "09234356789",
+    "streetNumber": "Purok 69"
+  },
+  "resident_id_1": {
+    "firstName": "John",
+    "houseNumber": "101",
+    "lastName": "Doe",
+    "middleInitial": "A",
+    "phoneNumber": "1234567890",
+    "streetNumber": "Purok 3"
+  },
+  "resident_id_2": {
+    "firstName": "Jane",
+    "houseNumber": "102",
+    "lastName": "Doe",
+    "middleInitial": "B",
+    "phoneNumber": "0987654321",
+    "streetNumber": "Purok 4"
+  }
+}

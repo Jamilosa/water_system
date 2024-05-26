@@ -1,0 +1,54 @@
+{
+  "account_tb": {
+    "user_id_1": {
+      "email": "example1@example.com",
+      "password": "hashed_password1",
+      "phone": "1234567890"
+    },
+    "user_id_2": {
+      "email": "example2@example.com",
+      "password": "hashed_password2",
+      "phone": "0987654321"
+    }
+  },
+  "resident_tb": {
+    "resident_id_1": {
+      "first_name": "John",
+      "last_name": "Doe",
+      "middle_initial": "A",
+      "resident_house_number": "101",
+      "resident_phone_number": "1234567890",
+      "resident_street_number": "3"
+    },
+    "resident_id_2": {
+      "first_name": "Jane",
+      "last_name": "Doe",
+      "middle_initial": "B",
+      "resident_house_number": "102",
+      "resident_phone_number": "0987654321",
+      "resident_street_number": "4"
+    }
+  },
+  "sms_template_tb": {
+    "critical": "Critical alert message",
+    "high": "High alert message",
+    "low": "Low alert message",
+    "normal": "Normal message"
+  },
+  "warning_level_tb": {
+    "critical": "Critical",
+    "high": "High",
+    "low": "60.0",
+    "normal": "70"
+  },
+  "water_level_tb": {
+    "water_id_1": {
+      "date_time": "2024-05-18T00:00:00Z",
+      "water_level_value": "75.0"
+    },
+    "water_id_2": {
+      "date_time": "2024-05-18T01:00:00Z",
+      "water_level_value": "80.0"
+    }
+  }
+}

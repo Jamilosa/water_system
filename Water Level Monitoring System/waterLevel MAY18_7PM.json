@@ -1,0 +1,54 @@
+{
+  "accounts": {
+    "user_id_1": {
+      "email": "example1@example.com",
+      "password": "hashed_password1",
+      "phone": "1234567890"
+    },
+    "user_id_2": {
+      "email": "example2@example.com",
+      "password": "hashed_password2",
+      "phone": "0987654321"
+    }
+  },
+  "residents": {
+    "resident_id_1": {
+      "firstName": "John",
+      "lastName": "Doe",
+      "middleInitial": "A",
+      "houseNumber": "101",
+      "phoneNumber": "1234567890",
+      "streetNumber": "3"
+    },
+    "resident_id_2": {
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "middleInitial": "B",
+      "houseNumber": "102",
+      "phoneNumber": "0987654321",
+      "streetNumber": "4"
+    }
+  },
+  "smsTemplates": {
+    "critical": "Critical alert message",
+    "high": "High alert message",
+    "low": "Low alert message",
+    "normal": "Normal message"
+  },
+  "warningLevels": {
+    "critical": "Critical",
+    "high": "High",
+    "low": 60.0,
+    "normal": 70.0
+  },
+  "waterLevels": {
+    "water_id_1": {
+      "timestamp": 1713638400,
+      "value": 75.0
+    },
+    "water_id_2": {
+      "timestamp": 1713642000,
+      "value": 80.0
+    }
+  }
+}
